@@ -1,0 +1,6 @@
+(executables
+ (public_names lab09 - -)
+ (names go_first nim play)
+ (libraries src)
+ (preprocess
+  (pps ppx_expect ppx_sexp_conv)))
